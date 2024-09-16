@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Marvel Flix</title>
+</head>
+
+<body>
+    <header>
+        <h1>MarvelFlix</h1>
+    </header>
+    <div class="image-header">
+    </div>
+    <main>
+        <section>
+            <input type="text" id="campo-pesquisa" placeholder="Digite o filme Marvel e acesse informações">
+            <div class="button-container">
+                <button onclick="pesquisar()">Pesquisar</button>
+                <button onclick="listar()">Listar</button>
+            </div>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos não estão reservados! <a href="https://github.com/jessicatorchia" target="_blank">Acesse mais</a></p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
