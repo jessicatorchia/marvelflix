@@ -21,4 +21,4 @@ MarvelFlix é uma aplicação web que permite pesquisar e listar filmes da Marve
    ```bash
    git clone https://github.com/jessicatorchia/marvelflix.git
 ## URL de Acesso
-Você pode acessar a aplicação online através da seguinte URL: MarvelFlix
+Você pode acessar a aplicação online através da seguinte URL: https://marvelflix-yqur.vercel.app
